@@ -297,6 +297,13 @@ $ git stash
 $ git stash pop
 ```
 
+## 十、其他
+
+```angular2html
+# 生成一个可供发布的压缩包
+$ git archive
+```
+
 ## Reference
 
 [阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
