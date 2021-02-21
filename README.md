@@ -4,7 +4,7 @@
 
 下面是我整理的常用 Git 命令清单。几个专用名词的译名如下。
 
-```
+```angular2html
 * Workspace：工作区
 * Index / Stage：暂存区
 * Repository：仓库区（或本地仓库）
@@ -67,3 +67,29 @@ $ git rm --cached [file]
 $ git mv [file-original] [file-renamed]
 ```
 
+## 四、代码提交
+
+```angular2html
+# 提交暂存区到仓库区
+$ git commit -m [message]
+
+# 提交暂存区的指定文件到仓库区
+$ git commit [file1] [file2] ... -m [message]
+
+# 提交工作区自上次commit之后的变化，直接到仓库区
+$ git commit -a
+
+# 提交时显示所有diff信息
+$ git commit -v
+
+# 使用一次新的commit，替代上一次提交
+# 如果代码没有任何新变化，则用来改写上一次commit的提交信息
+$ git commit --amend -m [message]
+
+# 重做上一次commit，并包括指定文件的新变化
+$ git commit --amend [file1] [file2] ...
+```
+
+## Reference
+
+[阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
