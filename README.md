@@ -1,5 +1,16 @@
 # 常用 Git 命令清单
 
+![](image/2021-02-21-17-18-08.png)
+
+下面是我整理的常用 Git 命令清单。几个专用名词的译名如下。
+
+```
+* Workspace：工作区
+* Index / Stage：暂存区
+* Repository：仓库区（或本地仓库）
+* Remote：远程仓库
+```
+
 ## 一、新建代码库
 
 ```angular2html
@@ -29,7 +40,9 @@ $ git config -e [--global]
 $ git config [--global] user.name "[name]"
 $ git config [--global] user.email "[email address]"
 ```
+
 ## 三、增加/删除文件
+
 ```angular2html
 # 添加指定文件到暂存区
 $ git add [file1] [file2] ...
@@ -53,3 +66,4 @@ $ git rm --cached [file]
 # 改名文件，并且将这个改名放入暂存区
 $ git mv [file-original] [file-renamed]
 ```
+
