@@ -306,4 +306,5 @@ $ git archive
 
 ## Reference
 
-[阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+* [阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+* [Linux命令搜索](https://wangchujiang.com/linux-command/c/git.html)
